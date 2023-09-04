@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="" />
+    <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/N阶乘之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/day03/demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/day03/demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/冒泡排序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/插入排序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/求int型的二进制.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/选择冒泡插入N阶乘二进制测试联系.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/选择排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/day02/demo2$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huaizhu/day02/demo2$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/day02/demo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huaizhu/day02/demo2.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +30,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/algorithm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-1.8.0_362/Contents/Home/src.zip!/java/lang/NullPointerException.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2P32Z8drQAHaZVjdLYr2g8FwSVd" />
   <component name="ProjectViewState">
@@ -39,13 +61,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.demo2">
-    <configuration name="com.huaizhu.day02.demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.day02.demo1" />
+  <component name="RunManager" selected="应用程序.选择冒泡插入N阶乘二进制测试联系">
+    <configuration name="选择排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.选择排序" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaizhu.day02.*" />
+          <option name="PATTERN" value="com.huaizhu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.day02.demo2" />
+    <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.冒泡排序" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaizhu.day02.*" />
+          <option name="PATTERN" value="com.huaizhu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.day01.demo3" />
+    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.插入排序" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaizhu.day01.*" />
+          <option name="PATTERN" value="com.huaizhu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.day01.demo4" />
+    <configuration name="N阶乘之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.N阶乘之和" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaizhu.day01.*" />
+          <option name="PATTERN" value="com.huaizhu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.day01.demo5" />
+    <configuration name="选择冒泡插入N阶乘二进制测试联系" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.选择冒泡插入N阶乘二进制测试联系" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.huaizhu.day01.*" />
+          <option name="PATTERN" value="com.huaizhu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.demo2" />
-        <item itemvalue="应用程序.com.huaizhu.day02.demo1" />
-        <item itemvalue="应用程序.demo5" />
-        <item itemvalue="应用程序.demo4" />
-        <item itemvalue="应用程序.demo3" />
+        <item itemvalue="应用程序.选择冒泡插入N阶乘二进制测试联系" />
+        <item itemvalue="应用程序.插入排序" />
+        <item itemvalue="应用程序.冒泡排序" />
+        <item itemvalue="应用程序.选择排序" />
+        <item itemvalue="应用程序.N阶乘之和" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +148,10 @@
       <workItem from="1682671497471" duration="35869000" />
       <workItem from="1683278452113" duration="7000" />
       <workItem from="1683278468448" duration="30000" />
+      <workItem from="1683278505392" duration="10368000" />
+      <workItem from="1683684126887" duration="3000" />
+      <workItem from="1683685467888" duration="598000" />
+      <workItem from="1693806631647" duration="7956000" />
     </task>
     <servers />
   </component>
