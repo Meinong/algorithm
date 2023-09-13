@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/一个链表分几段每段逆序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/两个链表相加.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/二分法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/二分法局部最小.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/栈实现.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/链表反转.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/队列实现.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/位图.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/对数器.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/选择冒泡插入N阶乘二进制测试联系.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huaizhu/选择冒泡插入N阶乘二进制测试联系.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +56,19 @@
   <component name="RunManager" selected="应用程序.链表反转">
     <configuration name="链表反转" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaizhu.链表反转" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaizhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="选择冒泡插入N阶乘二进制测试联系" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.选择冒泡插入N阶乘二进制测试联系" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -125,19 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="选择冒泡插入N阶乘二进制测试联系" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.选择冒泡插入N阶乘二进制测试联系" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huaizhu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaizhu.冒泡排序" />
       <module name="algorithm" />
@@ -167,10 +161,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.链表反转" />
-        <item itemvalue="应用程序.两个链表相加" />
-        <item itemvalue="应用程序.队列实现" />
-        <item itemvalue="应用程序.栈实现" />
-        <item itemvalue="应用程序.二分法局部最小" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +179,8 @@
       <workItem from="1683684126887" duration="3000" />
       <workItem from="1683685467888" duration="598000" />
       <workItem from="1693806631647" duration="8697000" />
-      <workItem from="1693905288016" duration="13140000" />
+      <workItem from="1693905288016" duration="14158000" />
+      <workItem from="1694592249738" duration="5808000" />
     </task>
     <servers />
   </component>
