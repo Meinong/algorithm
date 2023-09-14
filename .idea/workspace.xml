@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/位图.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/对数器.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/n个有序链表合并.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/二叉树遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/判断一棵树是镜面树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/判断两棵二叉树结构一致.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +182,7 @@
       <workItem from="1683685467888" duration="598000" />
       <workItem from="1693806631647" duration="8697000" />
       <workItem from="1693905288016" duration="14158000" />
-      <workItem from="1694592249738" duration="5808000" />
+      <workItem from="1694592249738" duration="11223000" />
     </task>
     <servers />
   </component>
