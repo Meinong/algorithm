@@ -62,6 +62,7 @@ public class 归并排序 {
             help[i++] = arr[p1] < arr[p2] ? arr[p1++] : arr[p2++];
         }
 
+        //要么p1 越界 要么p2 越界
         while(p1 <= mid){
             help[i++] = arr[p1++];
         }

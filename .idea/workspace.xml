@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/LazySignle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/Master公式.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/不用任何变量交换两个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/如何将一个int类型的数提取出最右侧的1来.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/如何用栈结构实现队列结构.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/如何用队列结构实现栈结构.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/小和问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/找出数组中出现K次数的数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/找出数组中出现一种数为奇数次的数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/找出数组中出现两种数为奇数次的数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/求数组中有多少个逆序队.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaizhu/LazySignle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaizhu/归并排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/归并排序.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +63,24 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.链表反转">
+  <component name="RunManager" selected="应用程序.求数组中有多少个逆序队">
     <configuration name="链表反转" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.huaizhu.链表反转" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaizhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="求数组中有多少个逆序队" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.求数组中有多少个逆序队" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +183,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="应用程序.求数组中有多少个逆序队" />
+      <item itemvalue="应用程序.选择冒泡插入N阶乘二进制测试联系" />
+      <item itemvalue="应用程序.链表反转" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.求数组中有多少个逆序队" />
         <item itemvalue="应用程序.链表反转" />
       </list>
     </recent_temporary>
@@ -179,7 +211,9 @@
       <workItem from="1683685467888" duration="598000" />
       <workItem from="1693806631647" duration="8697000" />
       <workItem from="1693905288016" duration="14158000" />
-      <workItem from="1694592249738" duration="32915000" />
+      <workItem from="1694592249738" duration="37272000" />
+      <workItem from="1695189564551" duration="12750000" />
+      <workItem from="1695300947001" duration="17770000" />
     </task>
     <servers />
   </component>
