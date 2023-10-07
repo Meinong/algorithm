@@ -32,7 +32,7 @@ public class 二叉树遍历 {
 
     //先序非递归方式
     //1.创建一个栈
-    //2.先将头节点押入 之后弹出，弹出时有右孩子先压右，有左再压左
+    //2.先将头节点押入 之后弹出，弹出时有右孩子先压右，有右再压左
     //3.之后弹出重复2的动作
     public static void pre1(Node head){
         if(head == null){
@@ -54,6 +54,7 @@ public class 二叉树遍历 {
     //中序
     public static void in(Node head){
         if(head == null){
+
             return;
         }
         in(head.left);
