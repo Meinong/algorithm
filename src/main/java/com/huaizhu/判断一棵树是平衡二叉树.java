@@ -3,7 +3,7 @@ package com.huaizhu;
 /**
  * 条件｜左数高度-右数高度｜ <= 1
  */
-public class 判断一棵树是平衡树 {
+public class 判断一棵树是平衡二叉树 {
 
 
     public static class TreeNode{
