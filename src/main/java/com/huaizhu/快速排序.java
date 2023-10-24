@@ -1,5 +1,7 @@
 package com.huaizhu;
 
+import java.util.Arrays;
+
 public class 快速排序 {
 
 
@@ -34,16 +36,16 @@ public class 快速排序 {
      */
     public static void splitNum2(int[] arr) {
         int LessEqualR = -1;
-        int moreEqualR = arr.length - 1;
+        int moreEqualR = arr.length-1;
         int index = 0;
         int mostR = arr.length - 1;
-        while (index < arr.length) {
+        while (index <= moreEqualR) {
             if (arr[index] < arr[mostR]) {
                 swap(arr, LessEqualR + 1, index);
                 LessEqualR++;
                 index++;
             } else if (arr[index] > arr[mostR]) {
-                swap(arr, moreEqualR - 1, index);
+                swap(arr, moreEqualR-1, index);
                 moreEqualR--;
             } else {
                 index++;
@@ -53,11 +55,12 @@ public class 快速排序 {
         swap(arr, moreEqualR, mostR);
     }
 
+    //int [] arr = {2,4,6,3,2,1,4,7};
     public static int[] partion(int[] arr, int L, int R) {
         int lessR = L - 1;
         int moreR = R;
         int index = L;
-        while (index < arr.length) {
+        while (index <= moreR) {
             if (arr[index] < arr[R]) {
                 swap(arr, lessR + 1, index);
                 lessR++;
@@ -95,6 +98,12 @@ public class 快速排序 {
         int temp = arr[j];
         arr[j] = arr[i];
         arr[i] = temp;
+    }
+
+    public static void main(String[] args) {
+        int [] arr = {2,4,6,3,2,1,4,7};
+        quickSort(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
 }

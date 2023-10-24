@@ -5,12 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/单调栈.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/斐波那契数列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/暴力递归.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/暴力递归到动态规划.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/给定一个字符串返回这个字符串的最大回文子序列长度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/AVL树实现有序表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/IndexTree和AC自动机.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/SizeBalanceTree实现有序表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/一致性哈希.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/布隆过滤器.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/线段树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/蓄水池算法.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/跳表实现有序表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaizhu/快速排序.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/快速排序.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/huaizhu/斐波那契数列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huaizhu/斐波那契数列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/二叉树遍历$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huaizhu/二叉树遍历$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/二叉树遍历.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huaizhu/二叉树遍历.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/判断一棵树是平衡树$Info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/判断一棵树是平衡树$TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/判断一棵树是平衡树.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/快速排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huaizhu/快速排序.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/huaizhu/桶排序.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huaizhu/桶排序.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,26 +55,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/zhz/Desktop/algorithm",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/zhz/Desktop/algorithm&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="应用程序.桶排序">
-    <configuration name="链表反转" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.链表反转" />
+}</component>
+  <component name="RunManager" selected="应用程序.Hash">
+    <configuration name="求数组中有多少个逆序队" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.求数组中有多少个逆序队" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -73,8 +84,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="求数组中有多少个逆序队" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.求数组中有多少个逆序队" />
+    <configuration name="Hash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.Hash" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaizhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.插入排序" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="选择冒泡插入N阶乘二进制测试联系" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.选择冒泡插入N阶乘二进制测试联系" />
+    <configuration name="快速排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.快速排序" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -190,32 +214,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="插入排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.插入排序" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huaizhu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="应用程序.堆排序" />
-      <item itemvalue="应用程序.桶排序" />
+      <item itemvalue="应用程序.Hash" />
       <item itemvalue="应用程序.求数组中有多少个逆序队" />
-      <item itemvalue="应用程序.选择冒泡插入N阶乘二进制测试联系" />
-      <item itemvalue="应用程序.链表反转" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.桶排序" />
-        <item itemvalue="应用程序.堆排序" />
+        <item itemvalue="应用程序.Hash" />
         <item itemvalue="应用程序.求数组中有多少个逆序队" />
-        <item itemvalue="应用程序.链表反转" />
       </list>
     </recent_temporary>
   </component>
@@ -237,11 +243,28 @@
       <workItem from="1693905288016" duration="14158000" />
       <workItem from="1694592249738" duration="37272000" />
       <workItem from="1695189564551" duration="12750000" />
-      <workItem from="1695300947001" duration="171964000" />
+      <workItem from="1695300947001" duration="230445000" />
+      <workItem from="1698115109418" duration="12245000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/huaizhu/快速排序.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/huaizhu/快速排序.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
