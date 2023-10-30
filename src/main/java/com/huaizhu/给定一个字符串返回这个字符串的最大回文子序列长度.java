@@ -1,5 +1,11 @@
 package com.huaizhu;
 
+import com.sun.xml.internal.ws.util.StringUtils;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * str = "a12b3c43def2ghi1lpm"
  * 最大的回文子序列为1234321  或者 123c321
@@ -70,4 +76,30 @@ public class 给定一个字符串返回这个字符串的最大回文子序列�
     }
 
 
+
+    public static int process(String s){
+        char[] str = s.toCharArray();
+        int N = str.length;
+        int[][] dp = new int[N][N];
+        for(int i = 0;i<N-1;i++){
+            dp[i][i] = 1;
+            dp[i][i+1] = str[i] == str[i+1] ? 1: 0;
+        }
+        dp[N-1][N-1] = 1;
+        for(int i = N-3;i>=0;i--){
+            for(int j = i+2;j<N;j++){
+                if(str[i] == str[j] && dp[i+1][j-1] == j-i-1){
+                    dp[i][j] = j-i+1;
+                }else{
+                    dp[i][j] = Math.max(dp[i+1][j-1],Math.max(dp[i][j-1],dp[i+1][j]));
+                }
+            }
+        }
+        return dp[0][N-1];
+    }
+
+    public static void main(String[] args) {
+        String s = "ababaa";
+        System.out.println(process(s));
+    }
 }
