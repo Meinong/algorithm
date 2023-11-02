@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/K个一组翻转链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/两数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/字符串相乘.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/最长回文子串.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/leetcodes/正则表达式匹配.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/leetcodes/正则表达式匹配.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.正则表达式匹配">
+  <component name="RunManager" selected="应用程序.最长回文子串">
     <configuration name="给定一个字符串返回这个字符串的最大回文子序列长度" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaizhu.给定一个字符串返回这个字符串的最大回文子序列长度" />
       <module name="algorithm" />
@@ -68,38 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodes.两数之和" />
+    <configuration name="最长回文子串" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.最长回文子串" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leetcodes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodes.正则表达式匹配" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcodes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.huaizhu.冒泡排序" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.huaizhu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -211,6 +186,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="两数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.两数之和" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="正则表达式匹配" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.正则表达式匹配" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="字符串相乘" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.字符串相乘" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.huaizhu.冒泡排序" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.huaizhu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="给定一个数组arr两个整数返回arr中有多少个数组的累加和在两个整数范围上" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huaizhu.给定一个数组arr两个整数返回arr中有多少个数组的累加和在两个整数范围上" />
       <module name="algorithm" />
@@ -224,33 +251,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exercises11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.exercises11" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="应用程序.exercises11" />
-      <item itemvalue="应用程序.两数之和" />
-      <item itemvalue="应用程序.正则表达式匹配" />
+      <item itemvalue="应用程序.最长回文子串" />
       <item itemvalue="应用程序.给定一个字符串返回这个字符串的最大回文子序列长度" />
       <item itemvalue="应用程序.给定一个数组arr两个整数返回arr中有多少个数组的累加和在两个整数范围上" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.正则表达式匹配" />
-        <item itemvalue="应用程序.两数之和" />
+        <item itemvalue="应用程序.最长回文子串" />
         <item itemvalue="应用程序.给定一个字符串返回这个字符串的最大回文子序列长度" />
         <item itemvalue="应用程序.给定一个数组arr两个整数返回arr中有多少个数组的累加和在两个整数范围上" />
-        <item itemvalue="应用程序.exercises11" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +284,9 @@
       <workItem from="1695189564551" duration="12750000" />
       <workItem from="1695300947001" duration="230445000" />
       <workItem from="1698115109418" duration="25036000" />
-      <workItem from="1698206254622" duration="73938000" />
+      <workItem from="1698206254622" duration="81489000" />
+      <workItem from="1698715759374" duration="2596000" />
+      <workItem from="1698889318540" duration="4367000" />
     </task>
     <servers />
   </component>
@@ -296,5 +308,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm$.ic" NAME="字符串相乘 覆盖结果" MODIFIED="1698657358411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcodes.*</FILTER>
+    </SUITE>
   </component>
 </project>
