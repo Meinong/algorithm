@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="470fd452-3a15-4173-9b21-80e88061b2b3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/删除链表的倒数第N个结点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/合并两个有序链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/四数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/最长公共前缀.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/盛最多水的容器.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/三数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/串联所有单词的子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/合并K个升序链表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/最接近的三数之和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/滑动窗口最大值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leetcodes/较小的三数之和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,9 +58,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="应用程序.四数之和">
-    <configuration name="四数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodes.四数之和" />
+  <component name="RunManager" selected="应用程序.合并K个升序链表">
+    <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.三数之和" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +72,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="删除链表的倒数第N个结点" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcodes.删除链表的倒数第N个结点" />
+    <configuration name="最接近的三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.最接近的三数之和" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="较小的三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.较小的三数之和" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="滑动窗口最大值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.滑动窗口最大值" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="合并K个升序链表" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcodes.合并K个升序链表" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -333,8 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.四数之和" />
-        <item itemvalue="应用程序.删除链表的倒数第N个结点" />
+        <item itemvalue="应用程序.合并K个升序链表" />
+        <item itemvalue="应用程序.滑动窗口最大值" />
+        <item itemvalue="应用程序.较小的三数之和" />
+        <item itemvalue="应用程序.最接近的三数之和" />
+        <item itemvalue="应用程序.三数之和" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +407,7 @@
       <workItem from="1699007731354" duration="598000" />
       <workItem from="1699076211306" duration="25817000" />
       <workItem from="1699249182311" duration="12522000" />
-      <workItem from="1699262118926" duration="5855000" />
+      <workItem from="1699262118926" duration="19882000" />
     </task>
     <servers />
   </component>
